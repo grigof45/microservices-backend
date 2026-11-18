@@ -5,17 +5,17 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.0.RELEASE</version>
+		<version>4.1.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>dev.shelenkov</groupId>
+	<groupId>com.example</groupId>
 	<artifactId>microservices-backend</artifactId>
-	<version>1.0.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>microservices-backend</name>
 	<description>Backend microservice</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>25</java.version>
 	</properties>
 
 	<dependencies>
@@ -48,12 +48,12 @@
     <dependency>
       <groupId>net.logstash.logback</groupId>
       <artifactId>logstash-logback-encoder</artifactId>
-      <version>6.3</version>
+      <version>9.0</version>
     </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.10</version>
+      <version>1.18.48</version>
       <scope>provided</scope>
     </dependency>
 	</dependencies>
