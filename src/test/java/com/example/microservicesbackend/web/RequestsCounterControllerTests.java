@@ -1,4 +1,4 @@
-package dev.shelenkov.microservicesbackend.web;
+package com.example.microservicesbackend.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

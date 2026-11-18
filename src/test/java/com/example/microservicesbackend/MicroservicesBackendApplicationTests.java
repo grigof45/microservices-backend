@@ -1,4 +1,4 @@
-package dev.shelenkov.microservicesbackend;
+package com.example.microservicesbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
